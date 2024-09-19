@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mymembers %}
+    <li>Thanh vien <a href="/mem/id={{ x.id }}">{{ x.firstname }}</a></li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
